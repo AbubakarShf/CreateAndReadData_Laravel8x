@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    padding-top: 16px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 8%;
+}
+.footer .footerPara{
+    font-size: 20px !important;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white !important;
+    font-size: 20px !important;
+}
+.bg-dark{
+    background-color: black !important;
+}
+#text{
+    font-size: 3.5rem !important;
+    text-align: center;
+    color: blue;
+    
+}
+.container{
+    justify-content: center;
+    margin-left: 25rem;
+}
+#loginForm{
+
+    max-width: 30%;
+    margin: 40px;
+    height: 50px;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background: linear-gradient(-45deg,#EE7752,#E73C7E,#23A6D5,#23D5AB);
+    background-size: 400% 400%;
+    animation: change 10s ease-in-out infinite;
+}
+ @keyframes change{
+        0%{
+            background-position: 0% 50%;
+        }
+        50%{
+            background-position: 100% 50%;    
+        }
+        100%{
+            background-position: 0% 50%;    
+        }
+    }
